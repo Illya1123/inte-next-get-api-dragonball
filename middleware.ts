@@ -4,7 +4,7 @@ import type { NextRequest } from 'next/server'
 const publicPaths = ['/']
 
 export function middleware(request: NextRequest) {
-  const hasWalletConnected = request.cookies.get('wallet_connected')?.value === 'true'
+  const hasWalletConnected = request.cookies.get('wallet_connected')?.value === 'true' && request.cookies.get('luban_login')
 
   const { pathname } = request.nextUrl
 
