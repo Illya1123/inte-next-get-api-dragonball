@@ -1,16 +1,4 @@
-type Character = {
-  id: number;
-  name: string;
-  ki: string;
-  race: string;
-  description: string;
-  image: string;
-  affiliation: string;
-};
-
-type ApiResponse = {
-  items: Character[];
-};
+import type { Character, ApiResponse } from "@/app/(types)/dragonball";
 
 export default async function ServerFetchPage() {
   const res = await fetch("https://dragonball-api.com/api/characters", {

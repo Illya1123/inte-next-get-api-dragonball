@@ -1,20 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-type Character = {
-  id: number;
-  name: string;
-  ki: string;
-  race: string;
-  description: string;
-  image: string;
-  affiliation: string;
-};
-
-type ApiResponse = {
-  items: Character[];
-};
+import type { Character, ApiResponse } from "@/app/(types)/dragonball";
 
 export default function ClientFetchPage() {
   const [data, setData] = useState<Character[]>([]);
