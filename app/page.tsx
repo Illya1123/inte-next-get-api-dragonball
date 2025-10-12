@@ -239,13 +239,13 @@ export default function Home() {
               href="/dragon-ball-client"
               className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
             >
-              Dragon Ball Client Page
+              Naruto Client Page
             </Link>
             <Link
               href="/dragon-ball-server"
               className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
             >
-              Dragon Ball Server Page
+              Naruto Server Page
             </Link>
           </div>
         </>
