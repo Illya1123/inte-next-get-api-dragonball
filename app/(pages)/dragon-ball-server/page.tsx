@@ -66,8 +66,7 @@ export default async function NarutoSSRPage() {
                 <strong>Giới tính:</strong> {char.personal?.sex || "Không rõ"}
               </p>
               <p className="text-sm text-gray-600">
-                <strong>Trạng thái:</strong>{" "}
-                {char.personal?.status || "Không rõ"}
+                <strong>Trạng thái:</strong> Không rõ
               </p>
               {char.personal?.affiliation && (
                 <p className="text-sm text-gray-600">
