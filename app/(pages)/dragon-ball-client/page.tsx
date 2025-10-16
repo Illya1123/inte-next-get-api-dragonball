@@ -73,7 +73,7 @@ export default function ClientFetchPage() {
               </p>
               <p className="text-sm text-gray-600">
                 <strong>Trạng thái:</strong>{" "}
-                {char.personal?.status || "Không rõ"}
+                {"Không rõ"}
               </p>
               {char.personal?.affiliation && (
                 <p className="text-sm text-gray-600">

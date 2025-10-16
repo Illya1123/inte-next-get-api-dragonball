@@ -23,7 +23,7 @@ export default async function RootLayout(props: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning data-lt-installed="true">
       <body className={inter.className}>
-        <Providers initialState={initialState}>{props.children}</Providers>
+          <Providers initialState={initialState}>{props.children}</Providers>
       </body>
     </html>
   );
